@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "name":"Task",
+            "request": "launch",
+            "program": "${cwd}/build/task",
+            "args": [],
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "cwd":"${workspaceFolder}",
+            "preLaunchTask": "C/C++: clang build active file",
+        }
+    ]
+}
